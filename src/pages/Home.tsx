@@ -22,7 +22,7 @@ export const Home = () => {
   return (
     <div className="relative w-full h-full min-h-screen">
       <div className="w-full h-[100px] shadow-md md:shadow-none flex justify-end pr-3 py-5 ">
-        <div className="text-[27px] ">
+        <div className="text-[27px] md:hidden block">
           <TbMenuDeep />
         </div>
       </div>
